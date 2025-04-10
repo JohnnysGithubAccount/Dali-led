@@ -19,5 +19,5 @@ make # run this to create binary files
  ```
 
 For more details you can have a look how this project runs in video here.
-<iframe width="560" height="315" src="https://youtu.be/I2O_JX2ZY2I" frameborder="0" allowfullscreen></iframe>
+[Watch the video here](https://youtu.be/I2O_JX2ZY2I)
 
