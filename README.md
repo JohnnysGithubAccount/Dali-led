@@ -18,7 +18,6 @@ make # run this to create binary files
  sudo ./a.out # run this command will run the server
  ```
 
-For more details you can have a look how this project runs in "Quick demo - Made with Clipchamp.mp4" video I included in the reposistory.
-
-
+For more details you can have a look how this project runs in video here.
+<iframe width="560" height="315" src="https://youtu.be/I2O_JX2ZY2I" frameborder="0" allowfullscreen></iframe>
 
