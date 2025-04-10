@@ -1,6 +1,14 @@
 # Dali led
  Implementation of a system control device using dali protocol with raspberry pi 5
 
+ ## Proposed Architecture
+ ![image](https://github.com/user-attachments/assets/164b5ef6-0ecb-4ff5-8abb-877b778b2a1a)
+ - User will input address of the led and its dimming level using the GUI written in C++, then the code will be send to raspberry pi 5 using tcp protocol.
+- At the User Space application that is server.c will take the command and write it to the character device at kernel space kernel module.
+- after receive the message, the kernel model will handle the code, encode the message using Manchester encoding and controls the gpio to send out the encoded signal.
+- Then the ESP32 will read the signal and then decode and control the lights.
+- There is also a flask web app but that's not the main idea so i didn't include it in this.
+
  ## Test
  On your linux device
  ```bash
