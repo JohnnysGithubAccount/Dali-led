@@ -1,0 +1,1 @@
+savedcmd_/home/johnny/drivers/learning/RPi3-DALI/RPi_DALI_drv.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/johnny/drivers/learning/RPi3-DALI/RPi_DALI_drv.ko /home/johnny/drivers/learning/RPi3-DALI/RPi_DALI_drv.o /home/johnny/drivers/learning/RPi3-DALI/RPi_DALI_drv.mod.o;  true

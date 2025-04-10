@@ -1,0 +1,1 @@
+savedcmd_/home/johnny/drivers/learning/RPi3-DALI/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/johnny/drivers/learning/RPi3-DALI/Module.symvers -T /home/johnny/drivers/learning/RPi3-DALI/modules.order -i Module.symvers -e 
