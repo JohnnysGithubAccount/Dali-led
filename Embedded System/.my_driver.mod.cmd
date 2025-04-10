@@ -1,0 +1,1 @@
+savedcmd_/home/johnny/drivers/learning/RPi3-DALI/my_driver.mod := printf '%s\n'   my_driver.o | awk '!x[$$0]++ { print("/home/johnny/drivers/learning/RPi3-DALI/"$$0) }' > /home/johnny/drivers/learning/RPi3-DALI/my_driver.mod
